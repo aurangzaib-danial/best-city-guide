@@ -1,0 +1,16 @@
+.banner {
+  color: #fff;
+  background: #3acec2;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.headline {
+  margin-bottom: 0;
+}
+
+.main-footer {
+  background: #d9e4ea;
+  padding: 2em 0;
+  margin-top: 30px;
+}

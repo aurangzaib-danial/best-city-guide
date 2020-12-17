@@ -42,6 +42,19 @@
   .primary {
     width: 60%;
   }
+
+  .main-header {
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    width: 100%;
+    top: 0;
+    z-index: 1;
+  }
+
+  body {
+    padding-top: 59px;
+  }
 }
 
 @media (min-width: 900px) {

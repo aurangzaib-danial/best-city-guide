@@ -3,4 +3,5 @@
 - [x] Navbar
 - [x] Intro content
 - [ ] Three column layout with learn more button (flex-start)
+- [ ] Image figures
 - [ ] Sticky footer

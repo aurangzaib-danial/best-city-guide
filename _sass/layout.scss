@@ -1,16 +1,38 @@
-.container {
+.row {
   max-width: 1150px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
 }
 
 .col {
   padding: 0 15px;
 }
 
-@media (min-width: 769px) {
+.primary {
+  order: -1;
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 769px) {
+  .row {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .col {
+    flex: 1 50%;
+  }
+  .primary {
+    order: 0;
+  }
+}
 
+@media (min-width: 1025px) {
+  .col {
+    flex: 1;
+  }
+  .primary {
+    flex-grow: 2;
+  }
 }

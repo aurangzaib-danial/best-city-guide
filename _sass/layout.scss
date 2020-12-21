@@ -8,11 +8,18 @@
 
 .col {
   padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.button {
+  margin-top: auto;
+  align-self: flex-start;
 }
 
 .primary {
   order: -1;
-
 }
 
 @media (min-width: 769px) {

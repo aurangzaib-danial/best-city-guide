@@ -17,7 +17,7 @@ nav a {
   font-size: .95em;
   color: #3acec2;
   text-transform: uppercase;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 nav a:hover {
@@ -25,10 +25,14 @@ nav a:hover {
 }
 
 @media (min-width: 769px) {
-  
-  // header {
-  //   padding: 0 15px;
-  // }
-
+  nav {
+    flex-direction: row;
+  }
 }
 
+@media (min-width: 1025px) {
+  header {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

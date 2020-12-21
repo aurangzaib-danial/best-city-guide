@@ -46,20 +46,3 @@ img {
 	width: 190px;
 }
 
-/* ================================= 
-  Media Queries
-==================================== */
-
-@media (min-width: 769px) {
-
-	/* ---- Float clearfix ---- */
-
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
-
-}
-
-
